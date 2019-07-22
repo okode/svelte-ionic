@@ -3,5 +3,5 @@
 </script>
 
 <ion-content>
-	<ion-button on:click={() => ++counter}>Counter: {counter}</ion-button>
+	<ion-button on:click={() => { ++counter; }}>Counter: {counter}</ion-button>
 </ion-content>
